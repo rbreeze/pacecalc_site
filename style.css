@@ -1,0 +1,159 @@
+body, html { margin: 0; padding: 0; }
+
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('avenirnext.otf');
+	font-weight: 500;
+}
+
+body {
+	font-family: 'Avenir Next';
+	font-weight: 500;
+}
+
+h1#main {
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: -15px;
+	margin-top: 20px;
+}
+
+p#slogan {
+	color: #fff;
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.appStore {
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.right-container {
+	float: right;
+	width: 55%;
+}
+
+.product-background { 
+	background: #FF2D55;
+}
+
+.clear {
+	clear: both;
+}
+
+#main-icon {
+	display: block;
+	width: 200px;
+	margin: 25px auto;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.product-shot-container {
+	width: 45%;
+	float: left;
+}
+
+#product-shot {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.bottom {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+h2 {
+	font-weight: 600;
+	text-align: center;
+	font-size: 35px;
+}
+
+p, ul {
+	width: 375px;
+	display: block;
+	margin: 0 auto;
+	font-size: 17px;
+}
+
+.button {
+	background: #fff;
+	font-size: 20px;
+	color: #FF2D55;
+	text-align: center;
+	padding: 7px;	
+	width: 107px;
+	margin: 0 auto;
+	display: block;
+	.noselect;
+	cursor: pointer;
+}
+
+form {
+	margin-top: -15px;
+}
+
+.button.submit {
+	-webkit-appearance: none;
+	outline: none;
+	border: 3px solid #FF2D55;
+	border-radius: 10px;
+	font-weight: 600;
+	width: 75px;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+.submit-container {
+	display: block;
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+	font-family: 'Avenir Next';
+}
+
+input, input:focus {
+	display: block;
+	outline: none;
+	padding: 11px;
+	margin: 10px auto;
+	font-size: 13px;
+	width: 190px;
+	font-family: 'Avenir Next';
+}
+
+input {
+	border-radius: 10px;
+	box-shadow: none;
+	outline: none;
+	border: 1px solid #cecece;
+}
+
+input:focus {
+	border: 2px solid #FF2D55;
+}
+
+@media screen and (max-width: 550px) { 
+	.product-shot-container {
+		width: 100%;
+		float: right;
+	}
+	.right-container {
+		width: 100%;
+	}
+	p {
+		width: 90%;
+	}
+}
