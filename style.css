@@ -82,7 +82,7 @@ h2 {
 }
 
 p, ul {
-	width: 375px;
+	width: 300px;
 	display: block;
 	margin: 0 auto;
 	font-size: 17px;
@@ -136,6 +136,7 @@ input, input:focus {
 }
 
 input {
+	-webkit-appearance: none;
 	border-radius: 10px;
 	box-shadow: none;
 	outline: none;
@@ -156,7 +157,7 @@ input:focus {
 	float: right;
 }
 
-@media screen and (max-width: 550px) { 
+@media screen and (max-width: 600px) { 
 	p, ul {
 		width: 85%;
 	}
