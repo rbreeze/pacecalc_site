@@ -145,6 +145,16 @@ input:focus {
 	border: 2px solid #FF2D55;
 }
 
+.left-info {
+	width: 55%;
+	float: left;
+}
+
+.right-contact {
+	width: 45%;
+	float: right;
+}
+
 @media screen and (max-width: 550px) { 
 	.product-shot-container {
 		width: 100%;
@@ -155,5 +165,8 @@ input:focus {
 	}
 	p {
 		width: 90%;
+	}
+	.right-contact, .left-info {
+		width: 100%;
 	}
 }
